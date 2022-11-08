@@ -12,7 +12,19 @@ ul,ol{
   margin: 0;
   padding: 0;
 }
+.form-control {
+  background-color: #b1b1b1;
+  border: 1px solid #636b72;
 
+}
+.text-right{
+  text-align: right;
+}
+.title{
+  font-size: 20px;
+  font-weight: 700;
+}
+/* header */
 .header_top{
   background-color: yellow;
   padding: 10px 0;
@@ -43,6 +55,8 @@ ul,ol{
   width: 290px;
   margin-left: 20px;
 }
+/* header */
+/* banner */
 .banner-area{
   position: relative;
   height: 450px;
@@ -56,7 +70,105 @@ ul,ol{
   background-repeat: no-repeat;
   position: absolute;
 }
-
+/* banner */
+/* experience */
 .experience-area .experience-item{
   margin: 50px 200px;
 }
+/* digital_survey */
+.digital_survey .card-item-1{
+  width: 40%;
+}
+.digital_survey .card-item-2{
+  width: 60%;
+}
+.digital_survey .card ul li{
+  margin-bottom: 10px;
+
+}
+.digital_survey .card ul li a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+/* digital_survey */
+/* bank-area */
+.bank-area .bank_logo .bank_logo_item{
+  width: 14%;
+  margin: 0 20px;
+}
+.bank-area .bank_logo .bank_logo_item img{
+  width: 100%;
+}
+/* bank-area */
+/*  */
+.superentendency .text{
+ width: 65%;
+}
+.superentendency .img{
+ width: 35%;
+}
+/*  */
+/*  */
+.send_a_messege .input_item{
+  width: 48%;
+}
+/* .send_a_messege .input_item  label{
+width: 25%;
+} */
+/*  */
+/* checkbox */
+.checkbox .checkbox-item{
+  width: 33%;
+  margin-bottom: 10px;
+}
+/* checkbox */
+/* welcome_head_office */
+
+/* welcome_head_office */
+
+/*  */
+footer .left-item h5{
+margin-bottom: 5px;
+}
+footer .left-item p{
+margin-bottom: 10px;
+}
+footer .center_item{
+  border-left: 1px solid #fff;
+  height: 100%;
+  border-right: 1px solid #fff;
+  padding-left: 150px;
+  padding-right: 150px;
+  position: relative;
+}
+footer .center_item .icons{
+  justify-content: space-between;
+
+}
+footer .center_item .icons i{
+  font-size: 24px;
+}
+.follow{
+  padding-top: 300px;
+}
+.btm-area{
+  position: absolute;
+text-align: center;
+  bottom: 20px;
+
+}
+.btm-area ul li{
+  display: inline-block;
+  margin-right: 0px;
+}
+tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  padding-bottom: 15px;
+  padding-left: 40px;
+}
+
+/*  */
