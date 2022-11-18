@@ -1,0 +1,122 @@
+@media (max-width: 991.98px) { 
+    .hero-area .hero-bg {
+        background-size:auto !important;
+      }
+        video.vedio {
+            width: auto;
+        }
+   
+    .header_top  .language{
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    .language .left::after {
+      display: none;
+    }
+    .language .left {
+        padding-right: 0px;
+   
+    }
+    .language ul li a {
+        font-size: 16px;
+    }
+    .header_bottom .last-item {
+        width: 100%;
+        margin-top: 10px;
+        clip-path: none;
+    }
+    .header_bottom .d-flex{
+        flex-direction: column;
+        align-items: flex-start !important;
+    }  
+    .navigation .navbar .navbar-nav {
+        clip-path: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .navigation .navbar .navbar-text::after {
+      display: none;
+    }
+    .navigation .navbar .navbar-text {
+   
+        text-align: left;
+    }
+ }
+ @media (min-width: 767.98px ) and (max-width: 991.98px) {
+
+    .header_bottom_item.meddel-item .d-flex{
+   flex-direction: row;
+   margin-top: 10px;
+    }
+    .header_bottom_item.first-item .d-flex{
+   flex-direction: row;
+    }
+  }
+ @media (min-width: 991.98px) and (max-width: 1198.98px) {
+    .navigation .navbar .navbar-nav .nav-item .nav-link {
+       font-size: 12px;
+    }
+    .language .left {
+        padding-right: 0px;
+    }
+    .language .left::after {
+     display: none;
+    }
+    .navigation .navbar .navbar-text::after {
+      display: none;
+    }
+    .navigation .navbar .navbar-nav {
+        clip-path: none;
+ 
+    }
+    .navigation .navbar .navbar-text .bg-warning{
+        height: 66px;
+    }
+    .header_bottom .last-item {
+        clip-path: none;
+    }
+    .header_bottom .last-item .bg-secondary{
+        padding-left: 0px !important;
+    }
+    .header_bottom .last-item .bg-secondary h5{
+        font-size: 14px;
+    }
+    .header_bottom .main{
+        align-items: center;
+    }
+    .header_bottom_item h1 {
+        font-size: 28px;
+    }
+    .header_bottom_item p {
+        font-size: 13px;
+    }
+    .header_bottom_item h3 {
+        font-size: 14px;
+    }
+  }
+ @media (min-width: 1199.98px) and (max-width: 1399.98px) { 
+    .language .left::after {
+        top: -76px;
+        height: 394px;
+    }
+    .header_bottom .last-item {
+        width: 23%;
+    }
+    .navigation .navbar .navbar-nav{
+        width: 76%;
+
+      }
+      .navigation .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+      .navigation .navbar .navbar-text{
+        width: 31%;
+      }
+      .header_bottom_item h3 {
+        font-size: 15px;
+    }
+    .navigation .navbar .navbar-text::after {
+        height: 76px;
+
+    }
+  }

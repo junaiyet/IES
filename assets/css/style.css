@@ -27,13 +27,15 @@ a {
   font-size: 20px;
   font-weight: 700;
 }
+
+
 /* header */
 header{
   position: relative;
 }
 
 .header_top{
-  background-color: yellow;
+  background-color: #ffc107;
   padding: 10px 0;
   margin-bottom: 30px;
 }
@@ -82,28 +84,58 @@ header{
 .header_bottom_item p{
   font-size: 14px;
 }
+/* .navigation{
+  margin-bottom: 110px;
+} */
+/* .navigation .navbar {
+position: fixed;
+width: 100%;
+
+} */
+/* .navigation .navbar.fixd-menu {
+  position: fixed;
+  background-color: #ffff;
+  padding: 15px;
+  box-shadow: 2px 6px 11px -1px rgba(148, 135, 135, 0.5);
+  -webkit-box-shadow: 2px 6px 11px -1px rgba(148, 135, 135, 0.5);
+  -moz-box-shadow: 2px 6px 11px -1px rgba(148, 135, 135, 0.5);
+} */
 .navigation .navbar .navbar-nav{
   clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);
+  width: 75%;
 
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link{
   color: #fff;
   font-weight: bold;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+.navigation .navbar .navbar-nav .nav-item .nav-link:hover{
+  color: #ffc107;
 }
 .navigation .navbar .navbar-text{
-  width: 290px;
-  /* margin-left: 20px; */
+  width: 25%;
   position: relative;
+  text-align: right;
 }
+.navigation .navbar .navbar-text h2 {
+  font-style: italic;
+  padding-right: 50px !important;
+}
+
 .navigation .navbar .navbar-text::after {
   content: "";
   position: absolute;
-  left: -80px;
-  top: 21px;
-  width: 84px;
-  height: 57px;
+  left: -76px;
+  top: 2px;
+  width: 77px;
+  height: 77px;
   background-color: #ffc107;
-  transform: rotate(361deg);
+  transform: rotate(360deg);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
 /* header */
@@ -223,4 +255,19 @@ tbody, td, tfoot, th, thead, tr {
   padding-left: 40px;
 }
 
+
 /*  */
+.hero-area .hero-bg {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-size: 100% , 100% !important;
+  background-color: #000;
+}
+.hero-bg.hero-bg-2{
+    background: url(../images/banner.png) no-repeat center;
+
+}
+.vedio{
+  width: 100%;
+}

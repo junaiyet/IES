@@ -18,7 +18,10 @@
       <!-- css -->
       <link rel="stylesheet" href="assets/plugins/fonts/all.min.css">
       <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
       <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
       <!-- css -->
    </head>
    <body >
@@ -51,8 +54,8 @@
          <div class="header_bottom">
             <div class="container">
 
-               <div class="d-flex justify-content-between">
-                  <div class="header_bottom_item">
+               <div class="d-flex justify-content-between main">
+                  <div class="header_bottom_item first-item">
                      <div class="logo d-flex">
                         <div class="img">
                            <img class="img-fluid" src="assets/images/logo.png" alt="">
@@ -63,7 +66,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="header_bottom_item">
+                  <div class="header_bottom_item meddel-item">
                      <div class="d-flex">
                         <div class="address d-flex align-items-center">
                            <div class="img">
@@ -89,13 +92,13 @@
             </div>
          </div>
          <div class="navigation">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg menu-fixd">
                <div class="container ">
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
+               <i class="fa fa-bars" aria-hidden="true"></i>
                  </button>
                  <div class="collapse navbar-collapse" id="navbarText">
-                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-secondary py-3 px-2 w-75 mr-4">
+                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-secondary py-3 px-2 mr-4">
                      <li class="nav-item">
                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                      </li>
@@ -121,7 +124,7 @@
                        <a class="nav-link" href="#">CONTACT US</a>
                      </li>
                    </ul>
-                   <span class="navbar-text w-25">
+                   <span class="navbar-text ">
                      <h2 class="bg-warning py-3 px-2">Get a Quote</h2>
                    </span>
                  </div>
@@ -131,11 +134,32 @@
       </header>
       <!-- header end-->
       <!-- banner start -->
-      <section class="banner" >
+      <section class="hero-area section section-mg">
+         <div class="hero-slider">
+            <div class="hero-bg">
+               <!-- <video class="vedio" autoplay loop muted playsinline
+                  src="https://www.11-76.com/html5-videos-21/foodex/foodex.mp4">
+               </video> -->
+               <!-- <video autoplay muted loop id="myVideo">
+                  <source src="rain.mp4" type="video/mp4">
+               
+                </video> -->
+                
+               <!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/e2KE4U1S8Ec" title="12 - Deploy VueJS Application  - Deployapps.io Tutorial Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div>
+            <div class="hero-bg hero-bg-2">
+
+            </div>
+         </div>
+  
+      </section>
+      <!-- <section class="banner" >
          <div class="banner-img">
             <img class="" style="width: 100%;" src="assets/images/banner.png" alt="">
+            <img class="" style="width: 100%;" src="assets/images/banner.png" alt="">
+            <img class="" style="width: 100%;" src="assets/images/banner.png" alt="">
          </div>
-      </section>
+      </section> -->
       <!-- banner end -->
       <!-- Experience -->
       <section class="experience-area">
@@ -721,6 +745,7 @@
       <!-- script -->
       <script src="assets/js/jquery-1.12.4.min.js"></script>
       <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script src="assets/js/script.js"></script>
       <!-- script -->
    </body>
