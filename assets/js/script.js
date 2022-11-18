@@ -12,7 +12,16 @@ $('.hero-slider').slick({
   speed: 1000,
 
 });
+$('.card-slider').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
 
+});
 
 // herp-slider end
 // backtotop start
