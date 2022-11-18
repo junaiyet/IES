@@ -1,4 +1,11 @@
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 230) {
+    $(".menu-fixd").addClass("fixd-menu")
+  } else {
+    $(".menu-fixd").removeClass("fixd-menu")
+  }
 
+})
 $('.hero-slider').slick({
   dots: false,
   arrows: false,
@@ -16,30 +23,23 @@ $('.card-slider').slick({
   dots: false,
   arrows: false,
   infinite: true,
-  autoplay: true,
+  autoplay: false,
   speed: 300,
   slidesToShow: 1,
+  slidesToScroll: 1,
+  adaptiveHeight:true,
+
+});
+$('.bank-area-slider').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  speed: 300,
+  slidesToShow: 7,
   slidesToScroll: 1,
 
 });
 
 // herp-slider end
 // backtotop start
-$(window).scroll(function () {
-  if ($(window).scrollTop() > 200) {
-    $(".menu-fixd").addClass("fixd-menu")
-  } else {
-    $(".menu-fixd").removeClass("fixd-menu")
-  }
-  if ($(window).scrollTop() > 100) {
-    $(".section-mg").addClass("section-auto")
-  } else {
-    $(".section-mg").removeClass("section-auto")
-  }
-  if($(window).scrollTop() > 1000){
-    $(".backtotop").fadeIn()
-  }else{
-    $(".backtotop").fadeOut()
-  }
-
-})

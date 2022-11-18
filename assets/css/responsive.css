@@ -20,10 +20,16 @@
     .language ul li a {
         font-size: 16px;
     }
+    .header_bottom_item.meddel-item {
+        display: none;
+
+    }
+
     .header_bottom .last-item {
         width: 100%;
         margin-top: 10px;
         clip-path: none;
+ 
     }
     .header_bottom .d-flex{
         flex-direction: column;
@@ -50,6 +56,17 @@
     }
     .header_bottom_item.first-item .d-flex{
    flex-direction: row;
+    }
+    .header_bottom_item.meddel-item {
+        display: block;
+
+    }
+
+    .header_bottom .last-item {
+        width: 100%;
+        margin-top: 10px;
+        clip-path: none;
+        display: block;
     }
   }
  @media (min-width: 991.98px) and (max-width: 1198.98px) {
@@ -95,6 +112,14 @@
     }
   }
  @media (min-width: 1199.98px) and (max-width: 1399.98px) { 
+    .title {
+        font-size: 17px;
+        font-weight: 700;
+        clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
+    }
+    .welcome_head_office .title-bg::after {
+        height: 13%;
+    }
     .language .left::after {
         top: -76px;
         height: 394px;
@@ -116,7 +141,7 @@
         font-size: 15px;
     }
     .navigation .navbar .navbar-text::after {
-        height: 76px;
+        height: 71px;
 
     }
   }
