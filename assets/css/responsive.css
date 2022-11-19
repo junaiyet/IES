@@ -1,35 +1,39 @@
 @media (max-width: 991.98px) { 
+    .navbar-toggler {
+        border: 2px solid #ffc107;
+        color: #ffffff;
+        background: #ffc107;
+    }
     .hero-area .hero-bg {
         background-size:auto !important;
-      }
-        video.vedio {
-            width: auto;
-        }
-   
+    }
+    video.vedio {
+        width: auto;
+    }
+    .title {
+        width: 100% !important;
+    }
+    .welcome_head_office .title-bg::after {
+        display: none;
+    }
     .header_top  .language{
         flex-wrap: wrap;
         margin-left: 15px;
     }
     .language .left::after {
-      display: none;
+        display: none;
     }
     .language .left {
         padding-right: 0px;
-   
     }
     .language ul li a {
         font-size: 16px;
     }
     .header_bottom_item.meddel-item {
         display: none;
-
     }
-
     .header_bottom .last-item {
-        width: 100%;
-        margin-top: 10px;
-        clip-path: none;
- 
+        display: none;
     }
     .header_bottom .d-flex{
         flex-direction: column;
@@ -41,11 +45,80 @@
         margin-top: 10px;
     }
     .navigation .navbar .navbar-text::after {
-      display: none;
+        display: none;
     }
     .navigation .navbar .navbar-text {
-   
         text-align: left;
+    }
+    .experience-area .experience-item {
+        margin: 30px 10px;
+    }
+    .experience-area .experience-item .item {
+        margin-bottom: 20px;
+    }
+    .devision-item .item {
+        margin-bottom: 20px;
+    }
+    .digital_survey .card-body{
+        flex-wrap: wrap;
+    }
+    .digital_survey .card-body .card-item-1{
+        width: 100%;
+    }
+    .digital_survey .card-body .card-item-2{
+        width: 100%;
+    }
+    .digital_survey .bg-secondary .bg-warning {
+        width: 100% !important;
+    }
+    .digital_survey .bg-secondary::after {
+     display: none;
+    }
+    .send_a_messege_item{
+        flex-wrap: wrap;
+    }
+    .send_a_messege .input_item {
+        width: 100%;
+    }
+    .send_a_messege .input_item .input{
+        flex-wrap: wrap;
+    }
+    .send_a_messege .input_item .input label{
+        width: 100% !important;
+    }
+    .checkbox .checkbox-item {
+        width: 100%;
+    }
+    .welcome_head_office_item{
+        flex-wrap: wrap;
+    }
+    .welcome_head_office_item .left-item{
+        width: 100% !important;
+    }
+    .content.bg-white.px-3.py-4.m-3 {
+        width: 100% !important;
+
+    }
+    .map.w-75 {
+        width: 100% !important;
+    }
+    .follow {
+        padding-top: 20px;
+    }
+    footer .center_item {
+        padding-left: 0;
+        padding-right: 0;
+        border: 0;
+    }
+    footer .btm-area {
+        position: static;
+    }
+    .digital_survey .card ul li a {
+        font-size: 11px;
+    
+    }
+    .build_career ul{
+       flex-wrap: wrap;
     }
  }
  @media (min-width: 767.98px ) and (max-width: 991.98px) {
@@ -70,6 +143,7 @@
     }
   }
  @media (min-width: 991.98px) and (max-width: 1198.98px) {
+
     .navigation .navbar .navbar-nav .nav-item .nav-link {
        font-size: 12px;
     }
@@ -110,6 +184,14 @@
     .header_bottom_item h3 {
         font-size: 14px;
     }
+    footer .center_item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btm-area {
+        left: 0;
+        font-size: 14px;
+    }
   }
  @media (min-width: 1199.98px) and (max-width: 1399.98px) { 
     .title {
@@ -143,5 +225,12 @@
     .navigation .navbar .navbar-text::after {
         height: 71px;
 
+    }
+    footer .center_item {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .btm-area {
+        left: 0;
     }
   }

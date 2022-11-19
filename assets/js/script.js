@@ -9,8 +9,6 @@ $(window).scroll(function () {
 $('.hero-slider').slick({
   dots: false,
   arrows: false,
-  prevArrow: '<i class="fas fa-chevron-left prevarrow"></i>',
-  nextArrow: '<i class="fas fa-chevron-right nextarrow"></i>',
   infinite: true,
   autoplay: false,
   adaptiveHeight:true,
@@ -38,6 +36,34 @@ $('.bank-area-slider').slick({
   speed: 300,
   slidesToShow: 7,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 
 });
 
