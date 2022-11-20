@@ -19,7 +19,7 @@
         background: #ffc107;
     }
     .hero-area .hero-bg {
-        background-size:auto !important;
+        background-size:auto ;
     }
     video.vedio {
         width: auto;
