@@ -72,9 +72,9 @@ header {
   content: "";
   position: absolute;
   right: 146px;
-  top: -78px;
+  top: -76px;
   width: 20px;
-  height: 377px;
+  height: 370px;
   background-color: #fff;
   transform: rotate(45deg);
   z-index: 99;
@@ -155,8 +155,13 @@ width: 100%;
   padding: 15px 15px;
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #ffc107;
+  color: #000;
  
+}
+.navigation .navbar .navbar-nav .nav-item .nav-link.active::after{
+  width: 100%;
+  color: #000;
+  z-index: -1;
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link.active:hover {
   color: rgb(0, 0, 0);
@@ -225,7 +230,7 @@ width: 100%;
   padding-right: 40px !important;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 8.5px;
 }
 
 .navigation .navbar .navbar-text::after {
@@ -234,7 +239,7 @@ width: 100%;
   left: -69px;
   top: 7px;
   width: 70px;
-  height: 59px;
+  height: 56px;
   background-color: #ffc107;
   transform: rotate(360deg);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
