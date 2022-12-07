@@ -255,7 +255,7 @@ width: 100%;
 }
 .hero-area .hero-bg {
   width: 100%;
-  height: 100vh;
+  height: 600px;
   position: relative;
   background-size: 100%, 100% !important;
   background-color: #000;
@@ -317,6 +317,8 @@ width: 100%;
 }
 .experience-area_bottom .card {
   position: relative;
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 24px;
 }
 .experience-area_bottom .card .overlay {
   position: absolute;
@@ -556,9 +558,9 @@ tr {
 .artGroup {
   display: block;
   width: 100%;
-  height: 247px;
+  height: 200px;
   position: relative;
-  margin: 0 10px 10px 10px;
+ 
   float: left;
 }
 
@@ -573,7 +575,6 @@ tr {
   height: 100%;
   position: absolute;
   display: block;
-  border: 1px solid #333;
 }
 
 .artGroup .detail {
@@ -585,13 +586,11 @@ tr {
 }
 
 .artGroup .detail h3 {
-  font: 300 18px/1.1 'roboto', sans-serif;
   text-align: center;
   color: orange;
 }
 
 .artGroup .detail p {
-  font: 200 13px/1.2 'roboto', sans-serif;
   text-align: left;
   padding: 0 0.25em;
 }
