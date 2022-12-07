@@ -13,6 +13,7 @@
     }
     .send_a_messege .textarea::after {
         background-color: transparent;
+        display: none;
     }
 }
 @media (max-width: 991.98px) { 
@@ -220,8 +221,8 @@
         height: 13%;
     }
     .language .left::after {
-        top: -76px;
-        height: 394px;
+        top: -74px;
+        height: 367px;
     }
     .header_bottom .last-item {
         width: 23%;
@@ -231,8 +232,10 @@
 
       }
       .navigation .navbar .navbar-nav .nav-item .nav-link {
-        font-size: 15px;
+        font-size: 14px;
+        padding: 15px 10px;
     }
+   
       .navigation .navbar .navbar-text{
         width: 31%;
       }
@@ -240,8 +243,7 @@
         font-size: 15px;
     }
     .navigation .navbar .navbar-text::after {
-        height: 71px;
-
+        height: 57px;
     }
     footer .center_item {
         padding-left: 50px;
