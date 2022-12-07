@@ -11,6 +11,9 @@
     video.vedio {
         width: 100% !important;
     }
+    .send_a_messege .textarea::after {
+        background-color: transparent;
+    }
 }
 @media (max-width: 991.98px) { 
     .navbar-toggler {
