@@ -48,6 +48,33 @@ a {
   clip-path: polygon(38% 0%, 100% 0%, 65% 100%, 0% 100%);
 }
 
+.border-title{
+  margin-bottom: 20px;
+}
+.border-title h3{
+  position: relative;
+}
+.border-title h3::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #636b72;
+  width: 38%;
+  height: 1px;
+}
+.border-title h3::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #636b72;
+  width: 38%;
+  height: 1px;
+}
+
 /* header */
 header {
   position: relative;
@@ -514,7 +541,33 @@ width: 25%;
 /* welcome_head_office */
 
 /* welcome_head_office */
+/* company_founder */
+.company_founder .card{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.company_founder .card .img{
+  width: 40%;
 
+}
+.company_founder .card .content{
+  width: 57%;
+
+}
+.company_founder .card .content h4{
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+/* company_founder */
+/* company_profile  */
+.company_profile {
+  padding-bottom: 300px;
+}
+/* company_profile  */
 /*  */
 footer{
   background: url('/assets/images/footer-bg.jpg') no-repeat center;

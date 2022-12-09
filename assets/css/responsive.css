@@ -15,6 +15,20 @@
         background-color: transparent;
         display: none;
     }
+    .border-title h3::after {
+        width: 20%;
+    }
+    .border-title h3::before {
+        width: 20%;
+    }
+    .company_founder .card .content h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .company_founder .card .content h5 {
+        font-size: 18px;
+        margin-bottom: 10px !important;
+    }
 }
 @media (max-width: 991.98px) { 
     .navbar-toggler {
@@ -121,16 +135,14 @@
         width: 100% !important;
     }
     .follow {
-        padding-top: 20px;
+        padding-top: 200px;
     }
     footer .center_item {
         padding-left: 0;
         padding-right: 0;
         border: 0;
     }
-    footer .btm-area {
-        position: static;
-    }
+
     .digital_survey .card ul li a {
         font-size: 11px;
     
