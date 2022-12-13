@@ -191,7 +191,7 @@ width: 100%;
   padding: 15px 15px;
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #6c757d;
+  color: #000000;
  
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link.active::after{
@@ -276,7 +276,7 @@ width: 100%;
   z-index: 1;
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link:hover{
-  color: #6c757d;
+  color: #000;
 }
 .navigation .navbar .navbar-nav .nav-item .nav-link::after {
   color: #ffff;
